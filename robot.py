@@ -11,7 +11,7 @@ class Robot:
     def __init__(self, direction='NORTH', coordinates=(0, 0), board_size=5):
         self.direction = direction
         self.coordinates = coordinates
-        self.board_size = 5
+        self.board_size = board_size
 
     def turn_left(self):
         index = directions.index(self.direction) - 1
