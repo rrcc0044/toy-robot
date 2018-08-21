@@ -3,6 +3,7 @@
 ### Assumptions
   - Initial Coordinates will never be out of the 5x5 table
   - Commands are either PLACE, MOVE, LEFT, RIGHT, REPORT.
+  - Inputs are from standard input
 
 ### Installation
 
