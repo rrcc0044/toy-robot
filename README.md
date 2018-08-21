@@ -14,6 +14,8 @@ Install the dependencies and dev dependencies then activate the virtual shell.
 $ cd toy-robot
 $ pipenv install --dev
 $ pipenv shell
+$ python3 robot.py
+Enter command:
 ```
 
 ### Running Tests
