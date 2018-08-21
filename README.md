@@ -3,6 +3,7 @@
 ### Assumptions
   - Initial Coordinates will never be out of the 5x5 table
   - Commands are either PLACE, MOVE, LEFT, RIGHT, REPORT.
+  - Inputs are from standard input
 
 ### Installation
 
@@ -14,6 +15,8 @@ Install the dependencies and dev dependencies then activate the virtual shell.
 $ cd toy-robot
 $ pipenv install --dev
 $ pipenv shell
+(toy-robot-xxxx) $ python3 robot.py
+Enter command:
 ```
 
 ### Running Tests
